@@ -22,7 +22,7 @@ const NavbarComp = () => {
       <Container fluid className="mt-2">
         <Row>
           <Col>
-            <Navbar>
+            <Navbar expand="lg">
               <Container fluid>
                 <Navbar.Toggle aria-controls="offcanvasNavbar" />
                 <Navbar.Collapse id="basic-navbar-nav">

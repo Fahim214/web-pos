@@ -1,125 +1,148 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "kategori": "Makanan",
-            "nama": "Pasta",
-            "harga": "Rp. 130.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-15.png",
-            "rating": {
-                "rate": 3.9,
-                "count": 120
-            }
-        },
-        {
-            "id": 2,
-            "kategori": "Makanan",
-            "nama": "Salmon Burger",
-            "harga": "Rp. 150.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-2-1.png",
-            "rating": {
-                "rate": 4.1,
-                "count": 259
-            }
-        },
-        {
-            "id": 3,
-            "kategori": "Makanan",
-            "nama": "Potato Wedges",
-            "harga": "Rp. 120.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-5-1.png",
-            "rating": {
-                "rate": 4.7,
-                "count": 500
-            }
-        },
-        {
-            "id": 4,
-            "kategori": "Makanan",
-            "nama": "Egg Burger",
-            "harga": "Rp. 150.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-12.png",
-            "rating": {
-                "rate": 2.1,
-                "count": 430
-                }
-        },
-        {
-            "id": 5,
-            "kategori": "Makanan",
-            "nama": "Cauliflower Mash",
-            "harga": "Rp. 130.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-13.png",
-            "rating": {
-                "rate": 4.6,
-                "count": 400
-                }
-        },
-        {
-            "id": 6,
-            "kategori": "Makanan",
-            "nama": "Smoked Salmon",
-            "harga": "Rp. 130.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-14.png",
-            "rating": {
-                "rate": 3.9,
-                "count": 70
-                }
-        },
-        {
-            "id": 7,
-            "kategori": "Makanan",
-            "nama": "Black Burger",
-            "harga": "Rp. 110.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-8-300x273.png",
-            "rating": {
-                "rate": 3,
-                "count": 400
-                }
-        },
-        {
-            "id": 8,
-            "kategori": "Makanan",
-            "nama": "Chinis Popular Noudlus",
-            "harga": "Rp. 130.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-4-300x235.png",
-            "rating": {
-                "rate": 1.9,
-                "count": 100
-                }
-        },
-        {
-            "id": 9,
-            "kategori": "Makanan",
-            "nama": "Pasta Dimare",
-            "harga": "Rp. 130.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-11-300x234.png",
-            "rating": {
-                "rate": 3.3,
-                "count": 203
-                }
-        },
-        {
-            "id": 10,
-            "kategori": "Makanan",
-            "nama": "Quattro Formaggi",
-            "harga": "Rp. 190.000",
-            "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-            "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
-            "rating": {
-                "rate": 2.9,
-                "count": 470
-                }
+  "products": [
+    {
+      "id": 1,
+      "kategori": "Makanan",
+      "nama": "Pasta",
+      "harga": "Rp. 130.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-15.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "kategori": "Makanan",
+      "nama": "Salmon Burger",
+      "harga": "Rp. 150.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-2-1.png",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "kategori": "Makanan",
+      "nama": "Potato Wedges",
+      "harga": "Rp. 120.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-5-1.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "kategori": "Makanan",
+      "nama": "Egg Burger",
+      "harga": "Rp. 150.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-12.png",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "kategori": "Makanan",
+      "nama": "Cauliflower Mash",
+      "harga": "Rp. 130.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-13.png",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "kategori": "Makanan",
+      "nama": "Smoked Salmon",
+      "harga": "Rp. 130.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-14.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "kategori": "Makanan",
+      "nama": "Black Burger",
+      "harga": "Rp. 110.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-8-300x273.png",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "kategori": "Makanan",
+      "nama": "Chinis Popular Noudlus",
+      "harga": "Rp. 130.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-4-300x235.png",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "kategori": "Makanan",
+      "nama": "Pasta Dimare",
+      "harga": "Rp. 130.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-11-300x234.png",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "kategori": "Makanan",
+      "nama": "Quattro Formaggi",
+      "harga": "Rp. 190.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+        "id": 10,
+        "kategori": "Makanan",
+        "nama": "Quattro Formaggi",
+        "harga": "Rp. 190.000",
+        "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+        "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
+        "rating": {
+          "rate": 2.9,
+          "count": 470
         }
-        
-    ]
+      },
+      {
+        "id": 10,
+        "kategori": "Makanan",
+        "nama": "Quattro Formaggi",
+        "harga": "Rp. 190.000",
+        "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+        "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
+        "rating": {
+          "rate": 2.9,
+          "count": 470
+        }
+      }
+  ]
 }

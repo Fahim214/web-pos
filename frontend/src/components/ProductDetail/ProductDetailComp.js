@@ -1,4 +1,4 @@
-import { faArrowCircleRight, faArrowRight, faBackward, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleRight, faArrowRight, faBackward, faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
@@ -36,7 +36,7 @@ const ProductDetailComp = () => {
           <h1 className="display-5">{product.nama}</h1>
           <p className="lead fw-bolder">
             Rating {product.rating && product.rating.rate}
-            <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStarHalfAlt} />
           </p>
           <h3 className="display-6 fw-bold my-4">Rp. {product.harga}</h3>
           <p className="lead">{product.deskripsi}</p>
