@@ -9,6 +9,7 @@ import BillsComp from './components/BillsComp'
 import SettingComp from './components/SettingComp'
 import NotifComp from './components/NotifComp'
 import SupportComp from './components/SupportComp'
+import ProductDetailComp from "./components/ProductDetail/ProductDetailComp";
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
             <Col md={3}>
               <NavbarComp />
             </Col>
-            <Col md={7}>
+            <Col md={9}>
               <Routes>
                 <Route path="/" element={<DashboardComp />} />
                 <Route path="/product" element={<ProductComp />} />
+                <Route path="/product/:id" element={<ProductDetailComp />} />
                 <Route path="/messages" element={<MessagesComp />} />
                 <Route path="/bills" element={<BillsComp />} />
                 <Route path="/setting" element={<SettingComp />} />
