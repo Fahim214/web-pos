@@ -1,42 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "kategori": "Makanan",
-      "nama": "Pasta",
-      "harga": "Rp. 130.000",
-      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-15.png",
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
-    },
-    {
-      "id": 2,
-      "kategori": "Makanan",
-      "nama": "Salmon Burger",
-      "harga": "Rp. 150.000",
-      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-2-1.png",
-      "rating": {
-        "rate": 4.1,
-        "count": 259
-      }
-    },
-    {
-      "id": 3,
-      "kategori": "Makanan",
-      "nama": "Potato Wedges",
-      "harga": "Rp. 120.000",
-      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-5-1.png",
-      "rating": {
-        "rate": 4.7,
-        "count": 500
-      }
-    },
-    {
       "id": 4,
       "kategori": "Makanan",
       "nama": "Egg Burger",
@@ -121,28 +85,24 @@
       }
     },
     {
-        "id": 10,
-        "kategori": "Makanan",
-        "nama": "Quattro Formaggi",
-        "harga": "Rp. 190.000",
-        "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-        "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
-        "rating": {
-          "rate": 2.9,
-          "count": 470
-        }
-      },
-      {
-        "id": 10,
-        "kategori": "Makanan",
-        "nama": "Quattro Formaggi",
-        "harga": "Rp. 190.000",
-        "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
-        "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
-        "rating": {
-          "rate": 2.9,
-          "count": 470
-        }
+      "id": 11,
+      "kategori": "Minuman",
+      "nama": "Quattro Formaggi",
+      "harga": "Rp. 190.000",
+      "deskripsi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+      "image": "https://xpressrow.com/wp/frudbaz/wp-content/uploads/2022/01/food-10-300x236.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
       }
+    },
+    {
+      "nama": "Mie Ayam Bakso",
+      "harga": "20000",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFRUYGRgaGBwaHBoYGBoYGBkYHBgaGhwaGRwcIS4mHB4rHxoZJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHzYsJSs0NDQ0NDQ0NDExNzQ0NDQ0NDQ0NDQ0NDQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EADoQAAIBAgQEAwYFAwUAAwEAAAECEQADBBIhMQVBUWEicYEGEzKRodFCUrHB8BQV4SNicoLxQ5KyB//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACgRAAICAgIBBAIBBQAAAAAAAAABAhEDIRIxQQQTIlEyYYEUcaGx8f/aAAwDAQACEQMRAD8A9jFdpV2gYqVKlQAqVKlQIVdpUqAFSpUqAFSpUqAFSpUqAGM0CTWdx2KLt2GwovxO5Cx1rPNUtlRRyugV1RXSQN6VjEBXYqJr/SomxBqXOKAskUqzHGuIX0INvaNZBPyoWntJiUjOmYdPEvpOsVPvxuiG6N3XaxuA9o77uilAoJE7nTn9K1qXwatZIyGnY9qbT99qYRVlEti+VMgxWgwWKDjvzFZqKsYO+VYGlYmjTUqr/wBWtKmIsV2uV2mAqVKu0COUqVKgBV2uUqAO0qVcmgDtKlSoAVKlSoAHcSEj1/agjDWtFikkR1H1H8NZrH3siu+pygmAJOlRL7KTFcuR51VZ5rO4X2qtsctwFG9SvrzFGsPiUcSjBh2M1ySy2NNPomJrhpTSrJyNFEidJqJrAq0FppWjkHFEK2QDy9KnU01tKr3cSF3NNSoTiXVuRVm3cDedZbF8by6IsnqdvlRbC38wDDmAa2hlItN0FTXVpqNIqWykmulOwJ8xpVa/pz0rlVQaDVKlXaZBylXa5QAqVKu0AcprNAk0mYASaDcR4hyH87mk2NKxnEuImYX+dzQ+zj3UyDVdmkyaYTSsqg/huNg6MKJW8YjbMPWsbNOVyNjRYuJt67WRscRddmoha42R8Qp2HFht1kR/JoHxXC6FgP8AkOnfyojZ4mjfiFSvDaqRP83FDVqhdHnWP4TaY+NF89iPWs1i8PbstmsXiG6CT8mFbv2l9l2vNmttGmqEnf8AMpJ+nageH9nkTRwSeYOn0rzssJRl0Lb0kVsNxp3t5ROeCC0Dflp0q1w+9cdHD7zoQdRptpV5MIqiFUDyqvg8JkZ94JESI8/tWNSstKVq2S8NuEJkO66ek1dU1ALPinapoqkmaJ0qEyzVS/gg3l5zVwA1KErRIT2CbfDlBmKvWrcVa90Omvr9K6LdNIVIdh6J4C1+I7fyB61WwuG0zNovMn9upozhbUwSIUfCvPzNdmO6JkOm50/SlVyKVaE2Ku1yu0xCrkV2lQAqY7gCTSdgBJoBxPiM+FaTdDSsfxLiM+FaDM01wtNdAqbLSo5FI12mk0AcNcrtcNACFKuUqAFNS28S67MahNcmgArZ4w40aGHerZx9m5o6+vMetAJpZ6O9CpBtuHI3wOPJtPqKr3OGOv4SR21/ShyXCNjFXsPxN15zWcsMWPaImsxuCPMVVv4y2hCswkkD/wB6UftcXVtGlT1B/Y6U65bLaoUfzVQ313qP6f6YnJgtV6VImHY7KT5A1PcxFxdDK+kVC1923Yn1qvYrtjseuGYauVUdzM+g1qVFX8Klz1bRflzplq1RHD2Y1NaRxRQmzuGw+oZ/EeXQeQomKqirK1pVEsdSrlKgR2lSpUAKmM0CTXWaKA8V4hPhU0m6GlY3ifEplV9TQcmuE10VJZ0Cu1ya4WoEImmk1wmo3cKJJgd6AJCaixOJRFzO6oo5sQo+ZoBjfaIklbCB40zucqA/q1ZnE3ldpvXTdfoCVRecKBsP15zWUs0Y6W2Zyn9G9w/E7NwSlxGExIYET0qyGrzTGXBctsoMeEwFHhWNdIodwjjF1FOS4ZBgrPhgzBE+n1pQyuSbaEsh62zVNYtgkZyRPICSftWW9muLu9otdgkGFbQFtNSQNND/ADSjRctDFtWOijZf+06Gm8n0dMI8lbNLZwKHdIHVmbN6ACKr4vh6gSjKDyEnXtrsd6pf3BLQCglzGoJBCncgEcwedV1xzsWf4QdTHM7wRQ8n0WoHM1OD1VfEZmzHnUuHRnOVQSe1ap2rM3p0Thqlt3SNjVj+zvlkEHqNtegneqZBUwRB6GgVBWzxNohoYdCJH1qdDZfaUPbUfI0GR6kBp2KjR4fDQJBDdx9qmBrOWcUy7GieH4x+YT351SZLiwuixUimq1nFo2zR2NWFFOxElKuUqQh1cJrtDeKY0IsDegCrxfiEeFd6z7NNOuOSZNRs0VDdmnQ6a4XoJjuPKlwIFkfjM/DpoAOZ2q1iOIIiZ3YAecyegjepUkyeSLzvQLjfHvdgokF433Cfc9qB8U9pi5yIcgPq5HkPh/WhD4R3IO5OyzrrzPfSolK9IylL6CXCvaK6jMX8SNyZjIYcwde807EY27ijqDkGuVTCeTv+LyFBMOVRvGFOpA5iecjnSxPF3bwJpGkgZTERvyFZ26om3RJjMY5JRAPDppAUevIVHaZ48V/Xoq5/1gCqVzhtxAWktIJLLJXQaiNwOUmKucO9m8ZfUsP9NQNDc8CmY0GknTWQIqeMatNUVHHKTpE9vFr8OZSDIJIVRG3Teq+I4croDhlZmQ+IqPw89onWPlRXBf8A88umc1+ySNYUuZHOCUEdKIYDhzWWZQjrp+KADEfD+b4h6EVPOMNx3/o6I+ma3Ir8KYpbQNoYk5t8xOoiOunpWgs8SbKSABAyyNwN4nf/ANqjduoqZEbSASSWJ5TmnfnJBqJ3GQtbQqs7wPEBvzJ8t6SyJnTBJql4LvvxvO/P6iurxi4misoQ6EbzPPzoM+KCrDA8ztB+VD8XxEAaESP5pVrZXRseFqXZpPhXKJ6mJIH0rTIxtr4bcgfqObDp3O9YD2V4iTayts3inbUmZoub7g5gzdZB/SKty1RnxV2anCcSgnOTBiIBUKekCnYzEpc0Ig8tIjyPrQTD8TBBZ8zPy2yjzMzP2qO5xCQCFj9fMU1KkHFNlwmDBqVHoWcYGgzrt86t23raMrRlJcXRdDU4GoUapVNMkkU9Knt4t12Y1XFOoAIf3R+tKqFKgKRq8VeCKSaymKvF2JNEOK4rM2UbChjCmyEqIWoTxvHi2hPPkO9EMViVQSzAedYniOLN65CkHXwrqRA1jSZJ+1YzlS/ZM5UhkCM7kCZJ2JIiToTr/mhHE3u5c5XKp+EEzH/X8M/WtBimtWSjlJLGSCq6iNTJ6EwQaG8b4gl05AhRCQSA+0AQB011351jFJIwA/C7ajxHVjqSeWv6VfxmKUkajTUnsO3eIjzNUMOyqGAbwLpJ0J+9Lgps3MSi3ZyFtYHhYn4VYgjKpMaiekayH9suKt0UeIN7xvANRqx2WKt8OwFxj4FLNz6Lpux69t+1bTF8KS6XVsAbVpSct6y6W2kaZjaY5WWdZInYgVX4xibalAjIsKFIUalhKzC7mAvfWolk0kkdmL0vJ/J6KGAvPZUG4yMLmYKVOaMpynXKNQ2nodqs3cVibiEBMtufiLZMwLaAM7azI5mZ51UxbtkRri+8VZIXMfBMHUTr1jzmaq4viQdWJXV4jVj2Mc5nkNO1QlZ3fhGo+DWWLxS2A2bNPjIzA98p0BHz+tV7l0toWA10RmVSTlaYViCdDO1QWOIXEw2W8qllBBLHOwE6ACIBHM9foHwOPzPmjVTzHw7wwPcZvL9cpJN66XZ52dzk7YS/oi3gzqvhJkiZB18IG+wMzsp71B7P2r65wyrkQlhLgZ40OWdSPtVLiPEPfsChyFHBViRIIkgkARyBjX1or/SXQoZAGzawXAznlM6gbz6dKvaioujJZZJUNxrtjVYAKj2hEDUEzBDH0iRzIrG8Qw95Tla04Jkaq2pGpykaHSdprQez+KdrpTxKxzZ1UyQ0ecbgb9DWsw11rSOHYqNJYMpKzrmWdJIMaDpO1axl7bo9GMFKCaMPwDGBVUMdBCn05/KtPZ4mAY3B/mk1jcZw9sO7AEuk6sBoBAIJA5EEGehqZMaU307ERVvbtCXVM2oxSnbaov6yJGaZ9NQdInzNZC7xiPhBn9z0rSez/s1fxHiuk21P4Y8Z883wntFHFitFrC4kOwA3mfQE/ajllqN4DgNm0gUKsAktnUMzNESGf4dByFXLnD0ZIUALM+HIBPI6ATp+tbx+Kownt2BbbVOhqPEWMh3kHY/enI1X2TVFla7TVp1AHaVcpUATMs1De0FXClCPaDF+5su4GYgaD6a9uZqmjNsyPtBdL3QhaEUa6xJ3j/8ANB8ReKGbQy6RmAMbbTp3Ovy0qO0zXfG+Yxqco18zPWZp4t2nY52dYXwIEBJP+6DEdyR61wydybOZu2CUxDliocuWIzEschJHPSWjqDGnOpL9wIAFADCZyiVjn8UwfKOVTDhju5OHQwJ0dlAJjqpgHtPyoRcvMWKtmV5ylMrSG6anfar7Wh0VltXLrKigyxJAHOd2Y8utbr2Y9mxYzXGh7gACAjwqxmT57Cd9+tScE4R7hC7a3GHiP5RyQR9ep8hV3iN51Cqh1ADebGI9ImufL6ht8Y9HV6eHJ7KuOxOJFoWWLuw+JgIBiZELoNxp0A3rJYm8FOgM7g8p78969EsY1cRbNp5W4pjOvLTaD8W9YbjHD0zkJcLEtqYgdyZHrpU4pLls9NWo0CcK73my8/za5dOvYftWjTAoh8LMzx4XJCqrxoAsbE8ydNI7tGAt2LMpeRmMZpRkZu6E7ifKhOKxcKTJiDrWjblKo9DS4xuXYaxeGNxEZLyqqgh5knMOcRrOp9aHXsbKe6tktLQTEFo1nTlIHoKocALEuWJywDB5neY9PrUtxRnL5yu0xAMnoJ/n0p8VGXF+DkeOUlaer6KOKusnhg5hq0QQp2AnnE6x1olY4jccJOsQC0jQRopgb7fyKhNhDlKvqN50nXban3uF3ET3lsNAMysnKd/FG0jY861ajJVRzyw/Kn2yK3hcSpci3flmJZlVwjHUz4RqNTFT8PxrXHWzcdsuvxFjlgFjpymI9av8E4vmWWY5h4W1+RFTcUyq+ZUUFoJYoc2YDruNxWcpW2pLZ6GKLUVT0HLtpirubWXwIFcH8IgAsD0BA1jlvWZ4zhy7vpACwIaSeew896t3OMYll92bhZDI1VZ1HU6/Wrb4N2ztbUuqeFioBIgfhXUtrzHIcqyVxdoJQfQG9k+Frn95chip0k6L37mf0r0DBcagC2EAicraho1O461jzbKOAQQHAYHltqOx2ozhruvpWym5bMuKWjSi6/xRCjfMZPmBuOnpXMRi2DDKZG+nTy5RQiyrH4QSYOg6d6kt3JDKxgjvpOsg/SrskJLjc4yv/wCd6kwlyRQMXO0/vRHhT7jvvWmNvozyIMrTgKjQ1KlamZ3LXKs+7pUAWHSs/wC0dvMhTkQa07LQTjdvQVpLSMTzF8K4VpZ8g0gORseY59PSg64H3lwJbYyx8UE/CNyx9YHejntNaupmyEhSNYHqaI+y3A/cWy7jxuJadwPwp2715+WXBNv+DPjsnW2mHtAKYVV+Q3nv1oP7P4Q3rhxVxSCScikQQJgEjrH7mjV5s7TyB07n/FWOAOl69ctszIUUGcu8xtPTnXDCbd/b8/ouMeTpDMS7TCAnXX96sYa1maGEIq+J2Gu5OUH5+VEv7UUzFHV59GAPY/eg+M4iqOEPwDfsevepUWj0cMOMSZ7qwAltEVTKfncxqxO416k1iMahF0d8zR9T/wBda0/FL2Txqc6FNCNgpjUfSsyMTmfM5AUgoGEkgEakjc8tK6Mad2bx6AeKxjFmJ2XSdhPRabgWVpN6SmwCyCW018h+9ScSwBaMjFu0RM8xNQYvFIFRFQqVGpO5bmTXbFJr4mE3JPf/AEtYVgjEZpUjQbGOW413+lNe4JMxqaZZCkagsOqmCPnU5w9kLMvI3zFddew20qGley03x0PtWQ3xAiDEDt0NWr2Ja0hytprpuIAG3OO1RZ8qiQMp2PKYGvbSK5deSDvFQ7vfRTgpR/YN4actyFBAjWdx1/WtNcdshI1IGYa6yNTGm51+dZ5LeV1bbMeQ5TtRtLsQNutGZptNDwppUyjYvPdcKqwzHc7Ca9C9mOEvZQEuJJzltSo2+fLTTnWewISCWlHjw5VzK45LoPCe9aTh90ZQgVgBzfN++prmnkvSQ5X0x3EsOyq9y7ZGIIKlWUMZQmGKgbOBOnl1rNPibavltuSGAIDCCuuxnmK0mOxDBSM+QHQGNcx2hedZrEXXVst0i8jEasALiE9Oo+u/SnjlshrQROIZQsGN5gDXXSTVdrzTVZMQASszHelcuoBJaPOuyO0ZPRdN9tzp5afOKP8ACbeVBO51rO4CwXYMZgfCNvU1rLCxW8Y8UYTlbLiVYsJJA61XSiGBSWHnVIgKe5FKpctKqomxhShPFrego6EqhxSzKT0qp/iQY18GGcE7aQOpqDiNw/Avl61bvYlQpaRpPp51R4eM6m6efw/8ep89/lXgZ8jySrwSxtoKmUflE+v351HiSVBu2wA4ASQBmZiRInnuDTb9w5S0DeBtsCfnWfwvGbqO7DI1oNqGUEh108B5NI+lGJcm/o0wL5GzbiFq0pZ0h1ALBZCsT+YdZFV7t7DmHNiWaGgQUboSv8BqguNsXWZ0LZn+JH/D4YgDkNz6mnYifdopJZyAMwACjaY02FOTaZ6kIoh4hjw5zONWMQNiJiSI303rD48FX8I01n962N1TkbIDmTwydih3I6x96y+OsFmAUElp0Ag9fvWuF1LZpS4uil70RmNXeGcIW8j3GknVVHNTuCR02FDb2BObLczKBsBrEb6Cj/BCqAorMSQWAbcjSQO21dE3xjcXsz/J01oy1vDECST27eY86sqcyAk+ITI2OXqKI43By7OohSZ1MQTuPnNTYDg7sGcINPhUncxuT0p+7Fq2yfb46RUv45GRkKEGNNdo205Dz6VQS6AY1aBtvJ5Vew3CbpbxACTJ1AJ12H3qxf4OqeIAj/b+4PShzgtWCUn0Ps20IzENrqUZCG25dauYPCpo5OVRsC2/Qa1EP9RSAcrQAuXQMfvVpeCH3Us03MwMnUR0isJST80Uk4lt75RkzIQCYzRKL0LEc42olgsYru1sl5WJYZcmux01g1e4BdIQC4okDz0GxPPvRR7mHkMo8QIMZYDEbSY15fKsPjX7Bt2C7+BRCTcDPIDZWPhTaJoFxvHWriwfC6gygEsNdCD00kUZ4ndb3ILFVd30kSIAbSeXLWsy+BOYsRqdD2jl661UK7YMzWOUsyqsgzA3G/KfT61o+F8GCwz+JvoPvVqzw5ZVimoLETuCTM0awmFJPaK9LE/ijkydlnh9jnRZBUVpIEVYtLNamRYsJNGeH2ok9qo4a1RX4E7n+CrSohsXvaVM/tzfmrtFi0EEGlQ4m1mUjqKkzc+VOAmrIPNuN8KzMeRJgkefMVNiVVECJtAUDsNBWp9ocBmRmTRuvTvHOsNg1um4Q4GVBMjmeXl/ivH9ZicXaWhMjx5CLlkDSJ6edVMPwxbeHAJZzsGChS7NvlEnLPXfyojc4et5iHcqgHiiJM8hNUvaHiSIgSzuMw947aIBox7tDEfOufFdV9nZ6eFLkOt8PtKA4uFHgqwYBvFGmUg8p2NRLhC6AJdFxRuAQDp01OvrQXhGUs9s3dXCspMyGWdddwZ+lEcLwq4itkcZySwddAG5aHflpWjgr2dadEtlits5kMozKuY5WjRvFynWPQUD4xeKLmICFhELJYA9+p8q0GLV77FC4V4BAgFXWAdQeYOm/KszxvB3Q03SzLI2WQOggU8aXLZa6KK3xcAOUCOcZZgdjVi5myIyqxZJ1UwwHLWfKhD+FsySx0gEECOfrWh4bbLqG+En1hgBoRzGgrefxp+BRakmvIsDxBbxZbvgJjLm59yO+u1EuJ4gEpbs3crMCdNvDplI3179KpPhLTasMxBmFDCGHOaMYG2sC4V1VGyzq0gx84rnlKKdpDSfkzFzPElmyjUjWQR2G9G1wz3UtlXlHUzmgwyjUMdxqCJBqfB4VkVbhAknNB0jmfKpbWNstna0ykkGEiIYyDPQTTttdBKr0V+H3LVsKzAgmSGgEirCJbvNH9RLA5sqQNAdAw3yzG0TQoYa62rqjHMBlzLlyzHh100/nOqmNsFGC2ydCArjdZ5E8xy701FX2JuzZnwlEJLSJkGMx6+Wu1BuM3CTlSHZT4hmkIRBG3PfvpVrCOcRbZDKXQpjkf8Akh5A/Sq+H4e9m2LaqFJJJYn9+Z+1Zqlti8juMu1y2mUnbkJiY5+QqL3zqqI+rOQoEagH83lUuExKICpbMy6ZQZM9+9UHvq9zM7ZVU5tRroNv1prfYf2DeFtljl1yggKSZJAGp8p0o7atBRArOey9w3M1xjMwAIiB+X0+9alBNehhVRo48n5CRav4WxzplixRS1bgV0xiYyZJhrUkD+RVpjmdV5Lqf2/nalbGRCx5/pTcGPxHdjPpyH861cn4JRdpUppUhA/DXypyP/O4q+NPKquIshhB0I2PMVFhsSUOR/8ABHUU7oGrCJgiOVYv2jte4c5VORhMjWDroe1bICNRqKjxFlHEMAfPWss2JZY8SaPGcfiH94rg+AEExsSevp+tU+M4L31qbfwlyDM+Fs3iHzG9eg8b4CkMkFVbYroRWVTC3MMSubOjfmA36mBvH6V58sLxK14O7DJceIDwWCT3qLOZgpzEbBQAGPzI+dFWxhe+lsgi2QykDQDwnLPTX6moLOKS2Wb3ZUsQgWI0Y/F/x5+lAL/vVuMy3ROb4SswRsBr2qFFyfy/ybt60b18NZJzI3iVYAE6KpmDNVeIq7qiqQCJLMdYXv13+lS8LvJctI5tsjupkesHXmOnao8eqM4sB2QpB/5E6+In4h2rCSaZcWDUwoZwiuSeuVYAG5OlVb6LbfLbkxqSdi3UHadOVWsIrWmu3HOs+7VQNDoGLTyGo/8ArVPB2ReTKzMjI5jTwkZiR5jLl9RVJfbKTpkL4627AZjbujWDs3SeRrQcJuXMrIcmeCykidDrr6nlG9ZjiPDFZjcK5mgLlWIJE+Iz8qLYK/cRMzooZFjOGI8P5W7aCrkouK4id27JfaQOyhEXN4fGADOrTAI22obgOHXMs5GQflAXOY8zMdomifB+Ni8LrOqIqiVILKzmSPDJ12+oqtw8O75soOurgkkevWk3KCpiSsp43Eqi/DlM6Z2hvQU2S9sZ9J1DABWABBBPrFFOJuXZsq23Cn4SSrBgNcrD9I9ag/pLlwKAi5dM2sBVE6CdzMfKi00vsEq7J7BZcl1GDf6Y2HPeQO81W4bxgvda0+eCGBznxTvMbKI6dqG4bhN5H8UqhbSGkETpMGNqmfEL74gwrK0rI+K2YBE8zz9avitpbE2d4dw9lDm4Qc2YyJmT+9QcIs5g9u+WJzSpYzKxpB+fzq02LcswzLEmCBLATWm4LhQURnHij6SYMVpC5WvJE7ilIXs/w8JOX4AIE8/8b1pcNbmorFudKL4axXbix0qOScrdkuGsxrV2xazHsN6YiEkAVLi7oRcq6sfqa36Rh2yLENnbKPhGp/YVOp1qvZTKI3O5PU1Om9SUWaVKlTJoZcE1TvoGEH/I8qtlqhurO1Oxoq2MU1sw2q9eX+DRFWVhKnXpQy50NV1ZkMqZHTmPKpTobjYXv2w4hhWa4nw+JBWVO/8Aij+G4gjiG3686mv4cMvUdqcoqSFGTizy3HcGE+FZERvBXpEUOxfDA2ryjj8Y/FyGYV6Di+GlZjUUIxWGBGokfzauOWFJHTHI+wbfvCyJ1yIkQN2OkAd9PrQ7j1zMyXgf9K4FbNsJjTMeXKnYnHFSdifytz7g1Vs4+4XyK65cslYGUeh0PpXA13Z1x+0TtdfNktFWdkVjIzKrGTJ9NfKKstbcJnvMEK/iCCSsajKKiuYz3clEQMdWdUVZMQJOkmKo4LEu6vndi7uoCmIVAZ8Maa7aVNKtFbKuNxWbKbaDKSQWbVp8hoBFSX7i5Al54DRoqsWY853MbD0p93DWz7xGIylgVkxlZREj+czVgYWyoRWZZ0IJHjMRtOpG3zq1xQnLwMs2LKlYIMAQrxoOUAnwzRTE3ptsIZVIykp8Sg9IJI9KoS7XkFsRZMyyxJIH4j8U8vSqWCvt/U3UnKmo+LmsATPM70qvYFi/iLdhVN2/mGwDKGJHfKsn1obe9pLLHKs5Y3Iyr5Abk1neMYVxcY3DILNBnkDtrt5V3CWFGpZQO5E+ldPsw48ntkJybNDjmura94HJQxopJEExyoTBc5200gaSYGvPz+VHOCI7IVtoWRmk66COnnRa37NXHZSQqgd5PnAqEpLSX8mqyRT+T6AuAwjZgg1YjWJGWdYPQxrW/wCG4QhQDqYqThXAltiFEnmTuTWhw+CC713YcNLZxZ83JlfC4SKJJb5Denok6KKffvpZWSdf5oK6dRRyW2dvXFtKSTr/ADSqOHBYl23Ow6D71XQtcfO+3IdPPvV4VndlVQ8U+3vUQNTWRrTBk9KlSoEQFqaWrhNMJosdDbyT51QumKvk1BfQMNaTKQKuvrI0PWp8LxZl3PqP3qDE2ivlVRjU8miqTNTZx6OPFHmKp47g+fxW2B7Vnc5GoMeVW8PxZ0318qfJPTJ4tbQP4pwcnRkysObDQ+tADZNhWVw58WYFULADoMoMa+tei2ONowytDdmH3rt3BYe5tKn/AGnT5GufL6WM3dm0M8oqmjytMYjmNe4ZSp9ART7WHBdSplUMz1EHfoZivQL/ALKq+zI4/wBwKkfrr8qH2/ZW5bZ2VX16MGG3ITNcsvRyi/j0br1UWtmLw122rM6WfeXHJOaNDJ0GZtFA7UVw2ZgWxCogYg5Q2bL5mAJ8qvj2dCbJcQ9gQPkwiqz8CDaNcc+Z+0U5YJMlZYlR7b2nGRQbY8THnvvVX2kVBdVl8LMNSOZGg/ajWG4UyBcl1oGgVhmEdNdfrVn+zoSc65i0Tvy2jpUxwTuinlj2Z8cP98ARBZjqNIBA1Pbr60Qwvs7aXUoCesRWiwXB1QeER9TV+xwhp2J9NK68OGUVTMMuRN6BmEwsAKqwPpRrC4KrtnA5d4HmftUvvkXdp+grqjFR7Odyb6G27YXYSanXDk6sYFUMVx63bGgE0DxnHHuaL4R1P2puaQKLZocdxVLYypq3QUJUM7ZnMnkOQqjhRr1J586N4a1A71N2VXEmtJAipRTBThTEdFWLAquKtIIFJCY+lSpUwKhptKlQMaaguV2lUsCte2NB7m9KlUstELVG1KlUlkN2jGB2FKlVxIkGMPRKxSpVojIuLUd/alSpMSKD05d6VKkigha2qO/SpVZIIxNCcXtSpUmUjN//ACGrS0qVc77Nl0FOG/FRxKVKtI9Gc+yQU4UqVWI6u9WxSpUkJnaVKlTEf//Z",
+      "kategori": "Makanan",
+      "deskripsi": "Bakso adalah makanan khas asli indonesia dengann berbagai variasi menu yang bisa anda pilih",
+      "id": 12
+    }
   ]
 }

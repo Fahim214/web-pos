@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getListProduct } from "../../actions/ProductAction";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import OffCanvasExample from "../ProductDetail/CartDetailComp";
+import ListProductMakanan from "./ListProductMakanan";
+import { LinkContainer } from "react-router-bootstrap";
 
 function ListProduct() {
-  const { getListProductResult, getListProductLoading, getListProductError } =
+  const { getListProductResult, getListProductLoading, getListProductError, deleteProductResult } =
     useSelector((state) => state.ProductReducers);
 
   const dispatch = useDispatch();
@@ -17,77 +19,69 @@ function ListProduct() {
     dispatch(getListProduct());
   }, [dispatch]);
 
+  useEffect(() => {
+    if(deleteProductResult){
+      dispatch(getListProduct());
+    }
+  }, [deleteProductResult, dispatch])
+
   const [search, setSearch] = useState("");
 
   return (
     <div>
-      <Container>
+      <Container className="mt-4"> 
         <Row>
-          <Col style={{ textAlign: "right" }}>
-            <input
-            style={{borderRadius: 10, padding: 5}}
-              type="text"
-              placeholder="Search"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-            />
+          <Col>
+            <Navbar bg="light" expand="lg">
+              <Container fluid>
+                {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                  <Nav
+                    className="me-auto my-2 my-lg-0"
+                    style={{ maxHeight: "100px" }}
+                    navbarScroll
+                  >
+                    <LinkContainer to="/product/makanan">
+                      <Nav.Link className="me-3">Makanan</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/product/pakaian">
+                      <Nav.Link className="me-3">Pakaian</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/product/elektronik">
+                      <Nav.Link className="me-3">Elektronik</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/product/alatrumah">
+                      <Nav.Link className="me-3">Alat Rumah</Nav.Link>
+                    </LinkContainer>
+                    <LinkContainer to="/product/buah">
+                      <Nav.Link className="me-3">Buah</Nav.Link>
+                    </LinkContainer>
+                  </Nav>
+                  <Form className="d-flex">
+                    <FormControl
+                      type="search"
+                      placeholder="Search Here"
+                      className="me-2"
+                      aria-label="Search"
+                      value={search}
+                      onChange={(e) => setSearch(e.target.value)}
+                    />
+                  </Form>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
           </Col>
         </Row>
       </Container>
-      <Container className="py-4">
-        <Row className="justify-content-center">
-          {getListProductResult ? (
-            getListProductResult
-              .filter((product) => product.nama.toLowerCase().includes(search))
-              .map((product) => {
-                return (
-                  <Col md={4} xs={6}>
-                    <Card className="my-3 p-2">
-                      <Card.Img
-                      className="crd-img"
-                        variant="top"
-                        src={product.image}
-                        height={230}
-                      />
-                      <Card.Body style={{ textAlign: "center" }}>
-                        <Card.Title>{product.nama}</Card.Title>
-                        <Card.Title className="mb-5">
-                          <h3>{product.harga}</h3>
-                        </Card.Title>
-                        <div style={{ display: 'flex',justifyContent: 'center'}}>
-                        <Row className=" justify-content-center ">
-                          <Col md={6} xs={6} style={{textAlign: 'right'}}>
-                            <NavLink to={`/product/${product.id}`}>
-                              <Button style={{width: 70}} variant="primary">Detail</Button>
-                            </NavLink>
-                          </Col>
-                          <Col md={6} xs={6}>
-                            {["end"].map((placement, idx) => (
-                              <OffCanvasExample
-                              key={idx}
-                              placement={placement}
-                              name="Buy"
-                              image={product.image}
-                              nama={product.nama}
-                              harga={product.harga}
-                              rating={product.rating && product.rating.rate}
-                              />
-                              ))}
-                          </Col>
-                        </Row>
-                              </div>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                );
-              })
-          ) : getListProductLoading ? (
-            <p>Loading . . .</p>
-          ) : (
-            <p>{getListProductError ? getListProductError : "Data Kosong"}</p>
-          )}
-        </Row>
-      </Container>
+      <ListProductMakanan 
+      getListProductResult={getListProductResult} 
+      getListProductLoading={getListProductLoading}
+      getListProductError={getListProductError}
+      deleteProductResult={deleteProductResult}
+      search={search}
+      dispatch={dispatch}
+      />
     </div>
   );
 }

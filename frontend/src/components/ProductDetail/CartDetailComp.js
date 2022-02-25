@@ -20,7 +20,7 @@ function OffCanvasExample({ name, ...props }) {
   return (
     <>
     <div>
-      <Button variant="success" onClick={handleShow} className="me-2 mx-3" style={{width: 70}}>
+      <Button variant="success" onClick={handleShow} style={{width: 60}}>
         {name}
       </Button>
     </div>
